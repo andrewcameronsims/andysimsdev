@@ -1,0 +1,43 @@
+* {
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+#business-card {
+  width: 50vw;
+
+  display: flex;
+  justify-content: space-around;
+
+  padding: 20px;
+
+  background-color: rgba(166, 226, 243, 0.541);
+}
+
+.fab, .fas {
+  font-size: 6em;
+  color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  #business-card {
+    width: 100%;
+  }
+  .fab, .fas {
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+  }
+}
