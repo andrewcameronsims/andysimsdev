@@ -1,6 +1,2 @@
-_site
-_drafts
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+dist/*.js
+node_modules

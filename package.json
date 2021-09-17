@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "three": "^0.132.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "name": "andysimsdev",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:andrewcameronsims/andysimsdev.git",
+  "author": "Andrew Sims <andrew.cameron.sims@gmail.com>",
+  "license": "MIT"
+}
